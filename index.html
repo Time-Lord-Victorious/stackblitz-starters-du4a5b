@@ -63,16 +63,7 @@
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+
           </form>
         </div>
       </div>
@@ -86,7 +77,48 @@
         Voice Actor
       </p>
     </header>
-
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title text-center">About Me</h1>
+            <p>I'm a junior software developer from Penang, Malaysia that has created some web apps. 
+              
+              I'm also a producer, director and writer for several audio dramas that I've voice acted in.</p>
+  
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                <li><span>App Development</span><br>Writing scripts for audio dramas</li>
+                <li><span>App Development</span><br>Producing and directing audio dramas</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Current</span><br>Studying in Sigma School & building web apps</li>
+                <li><span>2022 - 2023</span><br>Producing, directing and writing plus acting in several audio dramas</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2024</span><br>Sigma School Cerificate of Completion for CSDP</li>
+                <li><span>2024</span><br>IGCSE</li>
+              </ul>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
     <section>
       <h3 class="text-center mb-5">Web App projects</h3>
       <div class="container text-center mt-5">
@@ -148,12 +180,17 @@
             <div class="card" style="width: 18rem">
               <img src="project-1.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Bus Arrival App</h5>
-                <p class="card-text">An app to track the arrival of buses</p>
+                <h5 class="card-title">Doctor Who: Terror of the Nian</h5>
+                <br>
+                <p class="card-text">Audio drama for CNY 2023
+                </p>
+                <br>
+                <br>
+                <p lass="card-text">Ancient China, 670AD. 2 great and quarrelsome warlords are locked in a bitter feud against each other, stemming from the days of their forefathers, waging wars that cost the lives of thousands. Even worse is the appearance of a monstrosity called the "Nian", who emerges in the dawn of the new year to bring chaos. However, the arrival of a stranger from the stars known as "the Doctor" will change history forever...</p>
                 <a
-                  href="https://stackblitz.com/edit/stackblitz-starters-6rqwvc?file=package.json"
+                  href="https://www.youtube.com/watch?v=n6sucSsvLEw"
                   class="btn btn-primary"
-                  >Try it out!</a
+                  >Check out the drama!</a
                 >
               </div>
             </div>
@@ -162,12 +199,21 @@
             <div class="card" style="width: 18rem">
               <img src="project-2.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Translator App</h5>
-                <p class="card-text">A simple app to translate languages</p>
+                <h5 class="card-title">Batman: the Chase</h5>
+                <br>
+                <p class="card-text">
+                  In this decide your destiny audio drama, the Joker, one of the most sinister & dreaded supervillains in the globe, has allied with fellow supervillains Riddler & Scarecrow, and has purloined a magical staff dating back to the 2nd Crusades from Gotham City. The Batman, vigilante protector of Gotham City, is in hot pursuit of the Joker...</p>p>
+                  <br>
+                  <p class="card-text"> 
+                  Will Batman apprehend Joker? Or will Joker emerge victorious and use the mysterious staff to further his diabolical goals?
+                  </p>
+                  <br>
+                  <p class="card-text"></p>
+                  Only you can aid the Batman to apprehend the Joker & gang and avert a potential astronomical catastrophe by choosing an ending!</p>
                 <a
-                  href="https://stackblitz.com/edit/stackblitz-starters-lvkest?file=package.json"
+                  href="https://youtu.be/BE8rMuJY6Go?si=AQ2WiUiYD9H2neKN"
                   class="btn btn-primary"
-                  >Try it out!</a
+                  >Check out the drama!</a
                 >
               </div>
             </div>
@@ -176,12 +222,23 @@
             <div class="card" style="width: 18rem">
               <img src="project-3.png" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Clicker app</h5>
+                <h5 class="card-title">Batman X Superman: Armageddon</h5>
+                <br>
                 <p class="card-text">
-                  A fun app to increase/decrease number count
+                  
+Metropolis, 2026 AD. The superhero Superman, the embodiment of truth, justice and peace, protects the city from crime day and night with his superpowers of wonder.
                 </p>
-                <a
-                  href="https://stackblitz.com/edit/stackblitz-starters-z9fh5f?file=index.html"
+                <br>
+                <p class="card-text">
+                  Gotham City, 2026 AD. The vigilante hero Batman, operates in the shadows… fighting blackguards schemes, dauntlessness transcendent.</p>
+<br>
+<p class="card-text">2 different cities. 2 different heroes.</p>
+<br>
+<p class="card-text">But when enemies from both sides start to sow the seeds of destruction… and a malefic, malicious menace imperilling humankind's existence, what will these 2 heroes do?</p>
+          <br>
+          <p class="card-text">Will humanity’s doom envelop the world? Or will a new dawn be ushered into the fates of Earth's heroes?</p>
+<a
+                  href="https://youtu.be/8dH5BiapthU?si=cgt7UAQvSvDtvY5C"
                   class="btn btn-primary"
                   >Try it out!</a
                 >
